@@ -2,12 +2,13 @@ package main
 
 import (
 	"fmt"
-	"treinamento/math"
+
+	"github.com/guil95/go-trainning-bc/math"
 )
 
 func main() {
 	a := calculate(1,2,"-")
-	b := calculateByMap(1,2,"-")
+	b := calculateByMap(1,2,"+")
 
 	fmt.Println(a)
 	fmt.Println(b)

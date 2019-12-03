@@ -17,7 +17,7 @@ func main() {
 func calculate(number1 float64, number2 float64, method string) float64 {
 	switch method {
 	case "+":
-		return math.Exec(math.NewAddtion(number1, number2))
+		return math.Exec(math.NewAddition(number1, number2))
 	case "-":
 		return math.Exec(math.NewSubtraction(number1, number2))
 	default:
@@ -27,7 +27,7 @@ func calculate(number1 float64, number2 float64, method string) float64 {
 
 func calculateByMap(number1 float64, number2 float64, method string) float64 {
 	operations := map[string]math.Calculator{
-		"+": math.NewAddtion(number1, number2),
+		"+": math.NewAddition(number1, number2),
 		"-": math.NewSubtraction(number1, number2),
 	}
 

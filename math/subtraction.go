@@ -12,4 +12,3 @@ func NewSubtraction(number1 float64, number2 float64) *Subtraction {
 func (s Subtraction) Calc() float64 {
 	return s.number1 - s.number2
 }
-
